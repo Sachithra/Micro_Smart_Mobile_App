@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gro_background"
+    tools:context=".Groceries_Fragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="GROCERIES"
+        android:textColor="#4C4A4A"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+
+    <ExpandableListView
+        android:id="@+id/expandableListView_Gro"
+        android:layout_width="wrap_content"
+        android:layout_height="505dp"
+        android:layout_marginTop="0.5in"
+        android:divider="@android:color/black"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft" />
+
+
+
+</RelativeLayout>

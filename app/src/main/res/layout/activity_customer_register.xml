@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".Customer_register">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0.8in"
+        android:text="ID"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="1.2in"
+        android:text="USERNAME"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="1.6in"
+        android:text="PHONE"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2in"
+        android:text="AGE"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2.4in"
+        android:text="GENDER"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/cus_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="0.9in"
+        android:layout_marginTop="0.7in" />
+
+    <EditText
+        android:id="@+id/cus_uname"
+        android:layout_width="250dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.9in"
+        android:layout_marginTop="1.1in" />
+
+    <EditText
+        android:id="@+id/cus_phone"
+        android:layout_width="250dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.9in"
+        android:layout_marginTop="1.5in" />
+
+    <EditText
+        android:id="@+id/cus_age"
+        android:layout_width="250dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.9in"
+        android:layout_marginTop="1.89in" />
+
+    <CheckBox
+        android:id="@+id/male"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.9in"
+        android:layout_marginTop="390dp"
+        android:text="MALE"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="0.9in"
+        android:layout_marginTop="430dp"
+        android:text="FEMALE" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="470sp"
+        android:src="@drawable/customers" />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

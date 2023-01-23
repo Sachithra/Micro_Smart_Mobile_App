@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fruit_background"
+    tools:context=".Fruits_Fragment">
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRUITS"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#4C4A4A"/>
+
+
+    <ExpandableListView
+        android:id="@+id/expandableListView_Main"
+        android:layout_width="403dp"
+        android:layout_height="518dp"
+        android:layout_marginTop="0.5in"
+        android:divider="@android:color/black"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft" />
+
+</RelativeLayout>

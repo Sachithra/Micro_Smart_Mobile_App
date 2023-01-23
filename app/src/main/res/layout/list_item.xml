@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Price"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/od_product_stock"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/od_product_qty1"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/od_product_incrementbtn"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:backgroundTint="#F6CE08"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="➕" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
